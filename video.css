@@ -1,0 +1,10 @@
+.video-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px 16px; }
+.video-preview { min-width: 0; }
+.thumbnail { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.video-info-grid { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; margin-top: 12px; }
+.channel-pic { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
+.video-title { font-size: 14px; font-weight: 600; line-height: 1.5; margin-bottom: 6px; }
+.video-author, .video-stats { font-size: 12px; color: #606060; line-height: 1.7; }
+@media (max-width: 1200px) { .video-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 900px) { .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .video-grid { grid-template-columns: minmax(0, 1fr); } }

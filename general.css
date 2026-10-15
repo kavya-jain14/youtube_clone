@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 84px 24px 24px 96px; background: #f8f8f8; color: #0f0f0f; font-family: Roboto, Arial, sans-serif; }
+p { margin: 0; }
+img { max-width: 100%; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid #065fd4; outline-offset: 3px; }
+@media (max-width: 600px) { body { padding: 80px 12px 24px; } }
